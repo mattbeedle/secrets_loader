@@ -2,6 +2,8 @@
 
 require 'json'
 require 'secrets_loader/config'
+require 'secrets_loader/loader/secrets_manager'
+require 'secrets_loader/railtie'
 require 'secrets_loader/version'
 
 module SecretsLoader
